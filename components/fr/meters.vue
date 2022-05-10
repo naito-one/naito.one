@@ -61,11 +61,9 @@
     </p>
 
     <div class="text-gray-100 bg-gray-700 p-4 rounded-sm shadow-md mb-4">
-      Maintenant, plus d'excuses.
-      <strong>Toutes les données sont sous vos yeux</strong>. S'il y a
-      régulièrement une surconsommation d'eau
-      <i>le mardi entre 14h et 15h30</i>, vous le voyez. Il ne vous reste plus
-      qu'à déterminer la cause.
+      Maintenant, toutes les cartes sont dans vos mains. Vous pouvez avec
+      aisance repérer où et quand une surconsommation se produit. Grâce à ces
+      informations, en déterminer la cause devient plus facile.
     </div>
 
     <p>
@@ -84,6 +82,17 @@
         alt="Tableau de bord Meters"
       />
     </figure>
+
+    <h2>Signature énergétique</h2>
+
+    <p>
+      Si vous possédez un capteur de température ainsi qu'un capteur sur une
+      ressource servant à chauffer un bâtiment (comme l'électricité, le gaz où
+      le mazout), un outil de signature énergétique est mis à votre
+      disposition.<br />
+      Il vous permet de repérer les irrégularités de chauffage afin d'optimiser
+      vos installation et d'économiser de l'argent.
+    </p>
 
     <h2>Objectifs</h2>
 
@@ -116,7 +125,12 @@
       <strong>Meters</strong> a été conçu pour prendre en compte les
       <strong>petites entreprises</strong> comme les <strong>grandes</strong>.
       Vous avez des ressources sur plusieurs sites ? Vous pourrez les retrouver
-      sans problème au travers d'une recherche intelligente.
+      sans problème au travers d'un outil de recherche intelligent.
+    </p>
+
+    <p>
+      Une carte vous permet également d'avoir un aperçu rapide de l'emplacement
+      de vos ressources.
     </p>
 
     <h2>Accès multiples</h2>

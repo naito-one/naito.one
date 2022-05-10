@@ -60,10 +60,9 @@
     </p>
 
     <div class="text-gray-100 bg-gray-700 p-4 rounded-sm shadow-md mb-4">
-      No more excuses now.
-      <strong>You have access to all of the data</strong>. If there is an
-      overconsumption of water <i>every Tuesday between 14h and 15h30</i>, you
-      see it. All there's left is to find the cause of it.
+      Now all cards are in your hands. You can easily figure out where and when
+      overconsumption occurs. Thanks to this information, finding out the cause
+      is easier than ever.
     </div>
 
     <p>
@@ -81,6 +80,16 @@
         alt="Meters Dashboard"
       />
     </figure>
+
+    <h2>Energy signature</h2>
+
+    <p>
+      If you have a temperature sensor as well as a sensor on a heating resource
+      for a building (like electricity, gas or oil), an energy signature tool is
+      made available to you.<br />
+      This tool allows you to identify irregularities in heating in order to
+      optimize your facilities and save money.
+    </p>
 
     <h2>Objectives</h2>
 
@@ -112,7 +121,12 @@
       <strong>Meters</strong> was conceived with
       <strong>small companies</strong> as well as
       <strong>big companies</strong> in mind. You have resources on multiple
-      sites? You will be able to find them easily through an intelligent search.
+      sites? You will be able to find them easily through an intelligent
+      searching tool.
+    </p>
+
+    <p>
+      Also, a map allows you to see the location of your resources at a glance.
     </p>
 
     <h2>Multi access</h2>
