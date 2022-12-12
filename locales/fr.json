@@ -74,7 +74,9 @@
         "one": "Un an",
         "two": "Deux ans",
         "three": "Trois ans"
-      }
+      },
+      "electricity_cost": "Coût d'électricité estimé par an¹ : CHF {amount}",
+      "electricity_note": "¹: Basé sur la valeur moyenne 2022 de l'ElCom de 27,2ct/kWh"
     }
   }
 }

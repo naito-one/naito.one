@@ -154,6 +154,17 @@
 
     <clients></clients>
 
+    <h2>Combien ça consomme</h2>
+
+    <p>
+      Un capteur consomme <strong>&lt;1W</strong>, environ 7kWh par an.<br />
+      Pour référence, 6 capteurs consomment autant que 1 écran d'ordinateur de
+      catégorie énergétique A.<br />
+      Nous travaillons en permenance à réduire la consommation énergétique, au
+      travers de mises à jour logiciel et en choisissant du matériel moins
+      énergivore.
+    </p>
+
     <h2>Combien ça coûte</h2>
 
     <p>

@@ -190,6 +190,17 @@
         </div>
       </div>
 
+      <div class="flex flex-col items-center mt-2">
+        <span
+          v-text="
+            $t('pages.meters.electricity_cost', {
+              amount: electricityCostPerYear,
+            })
+          "
+        >
+        </span>
+      </div>
+
       <div class="flex justify-center my-8">
         <a
           :href="offerEmailString"
@@ -198,8 +209,18 @@
         ></a>
       </div>
 
+      <p class="text-gray-400 text-sm mt-16">
+        <span v-text="$t('pages.meters.electricity_note')"></span>
+        <a
+          class="yellow-link"
+          href="https://www.prix-electricite.elcom.admin.ch/"
+          rel="noopener"
+          >https://www.prix-electricite.elcom.admin.ch/</a
+        >
+      </p>
+
       <p
-        class="text-gray-400 text-sm mt-16"
+        class="text-gray-400 text-sm mt-2"
         v-text="$t('pages.meters.notice')"
       ></p>
     </section>
@@ -258,6 +279,14 @@ export default {
       numTempSensors: 1,
       numMbusSensors: 2,
       serviceYears: 3,
+      /**
+       * CHF / kWh, average from https://www.prix-electricite.elcom.admin.ch/
+       */
+      electricityPrice: 0.272,
+      /**
+       * kWh / year
+       */
+      sensorConsumption: 7.227,
     }
   },
   computed: {
@@ -343,6 +372,13 @@ export default {
           this.serviceDiscountYears +
           this.serviceDiscountGlobal) /
         this.totalMonths
+      ).toLocaleString(this.$numberLocale, oneDecimalFormat)
+    },
+    electricityCostPerYear() {
+      return (
+        this.totalSensors *
+        this.sensorConsumption *
+        this.electricityPrice
       ).toLocaleString(this.$numberLocale, oneDecimalFormat)
     },
   },

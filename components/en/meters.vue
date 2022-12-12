@@ -150,6 +150,16 @@
 
     <clients></clients>
 
+    <h2>How much power does it use</h2>
+
+    <p>
+      One sensor consumes <strong>&lt;1W</strong>, about 7kWh per year.<br />
+      For reference, 6 sensors consume as much as 1 computer screen of energy
+      category A.<br />
+      We are constantly improving the energy efficiency through software updates
+      and by choosing less power hungry hardware.
+    </p>
+
     <h2>How much does it cost</h2>
 
     <p>
