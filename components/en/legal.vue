@@ -85,11 +85,6 @@
 
     <h3>Third parties</h3>
     <p>
-      Our website loads a script from the
-      <a href="https://polyfill.io" rel="noopener">Polyfill.io</a> service in
-      order to ensure browser retro-compabilibity.
-    </p>
-    <p>
       Our website is hosted on the
       <a href="https://github.com" rel="noopener">Github</a> servers. Because of
       that, they are likely to log your visits for a while.

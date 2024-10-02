@@ -82,11 +82,6 @@
 
     <h3>Tierces</h3>
     <p>
-      Notre site charge un script depuis le service
-      <a href="https://polyfill.io" rel="noopener">Polyfill.io</a> afin de
-      garantir la rétro-compabibilité des navigateurs.
-    </p>
-    <p>
       Notre site est hébergé sur les serveurs de
       <a href="https://github.com" rel="noopener">Github</a>. De ce fait, ils
       sont susceptibles de journaliser vos visites pendant un certain temps.

@@ -1,5 +1,3 @@
-const features = ['es2015', 'es2016', 'IntersectionObserver'].join('%2C')
-
 export default {
   target: 'static',
   /*
@@ -22,12 +20,6 @@ export default {
       { hid: 'theme-color', name: 'theme-color', content: '#212121' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    script: [
-      {
-        src: `https://polyfill.io/v3/polyfill.min.js?features=${features}`,
-        body: true,
-      },
-    ],
   },
   /*
    ** Customize the progress-bar color
