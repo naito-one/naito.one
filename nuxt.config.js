@@ -65,8 +65,10 @@ export default {
   build: {
     extractCSS: true,
     postcss: {
-      plugins: {
-        tailwindcss: './tailwind.config.js',
+      postcssOptions: {
+        plugins: {
+          tailwindcss: './tailwind.config.js',
+        },
       },
     },
     /*
